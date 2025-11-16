@@ -1,0 +1,48 @@
+# Natural Language NetFlow MCP Questions
+
+## Traffic Analysis Questions
+- What's the current network traffic like?
+- Show me the top bandwidth consumers in the last hour
+- Which services are using the most bandwidth?
+- What's the traffic trend over the past 30 minutes?
+- Who are the top talkers on the network?
+- What countries are we exchanging traffic with?
+- Which ports are most active right now?
+
+## Bottleneck Detection Questions
+- Are there any network bottlenecks?
+- Which interfaces are overutilized?
+- Is the WAN link saturated?
+- Show me interfaces above 70% utilization
+- Who's consuming bandwidth on the DMZ interface?
+- What's causing high traffic on interface 1?
+
+## Security/Anomaly Questions
+- Are there any security concerns right now?
+- Is anyone port scanning our network?
+- Detect any unusual traffic patterns
+- Are there any traffic spikes or drops?
+- Which hosts are accessing unusual ports?
+- Find suspicious network activity
+
+## Host Investigation Questions
+- What's 192.168.1.100 doing on the network?
+- Show me all traffic from 10.0.0.50
+- Who is talking to 172.16.1.10?
+- What services is 192.168.1.25 accessing?
+- Investigate traffic to and from 10.1.1.87
+- Which hosts are connecting to this IP address?
+
+## Recommendation Questions
+- What should I focus on right now?
+- Give me network recommendations
+- What actions should I take to improve network performance?
+- Are there any critical issues I should address?
+- What's the network health status?
+
+## Combined/Complex Questions
+- Is host 192.168.1.50 causing the bottleneck on WAN-1?
+- Find the source of the traffic spike in the last 15 minutes
+- Which internal hosts are communicating with external IPs on non-standard ports?
+- Show me potential DDoS activity
+- What's consuming bandwidth during business hours?
