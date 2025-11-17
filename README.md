@@ -209,29 +209,7 @@ Additional service ports can be added to the `SERVICE_PORTS` dictionary in the s
 - Check time ranges in your queries
 - Ensure NetFlow data is being ingested
 
-## Development
 
-### Running Tests
-```bash
-python -m pytest tests/
-```
-
-### Direct Testing
-```bash
-# Test the MCP server directly
-python test_mcp_server.py
-```
-
-## Security Considerations
-
-- Store credentials securely in `.env` file (never commit to version control)
-- Use SSL/TLS for Elasticsearch connections in production
-- Implement appropriate access controls on your Elasticsearch cluster
-- Review and audit MCP server access logs regularly
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues and pull requests.
 
 ## License
 
