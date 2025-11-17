@@ -209,12 +209,3 @@ Additional service ports can be added to the `SERVICE_PORTS` dictionary in the s
 - Check time ranges in your queries
 - Ensure NetFlow data is being ingested
 
-
-
-## License
-
-MIT License - See LICENSE file for details
-
-## Support
-
-For questions or issues, please open an issue on GitHub or contact your network administrator.
